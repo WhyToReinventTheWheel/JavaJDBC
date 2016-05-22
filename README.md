@@ -20,6 +20,7 @@
 	
 * Note : 	All next Steps will throw java.sql.SQLException:
 * STEP 2: Open a connection
+	
 	* RDBMS		JDBC driver name			URL format
 	* MySQL		com.mysql.jdbc.Driver			jdbc:mysql://hostname/ databaseName
 	* ORACLE	oracle.jdbc.driver.OracleDriver		jdbc:oracle:thin:@hostname:port Number:databaseName
