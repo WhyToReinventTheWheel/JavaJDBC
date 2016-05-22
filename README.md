@@ -10,7 +10,7 @@
  </dependency>
 
 ----------------
-#	Steps
+### Steps
 ----------------
 * STEP 1: Register JDBC driver
 	- try {
