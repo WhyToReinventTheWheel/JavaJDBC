@@ -1,12 +1,12 @@
 http://dev.mysql.com/downloads/
 http://dev.mysql.com/downloads/connector/j/
 
--<!-- http://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-- <dependency>
-	- <groupId>mysql</groupId>
-	- <artifactId>mysql-connector-java</artifactId>
-	- <version>6.0.2</version>
-- </dependency>
+
+ <dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>6.0.2</version>
+ </dependency>
 
 ----------------
 	Steps
