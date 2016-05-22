@@ -13,11 +13,12 @@
 ### Steps
 ----------------
 * STEP 1: Register JDBC driver
+	-----------------------------------------------------------
 	- try {
 	-	Class.forName("oracle.jdbc.driver.OracleDriver");
 	- }
 	- catch(ClassNotFoundException ex) {}
-	
+	-----------------------------------------------------------
 * Note : 	All next Steps will throw java.sql.SQLException:
 * STEP 2: Open a connection
 	
