@@ -1,5 +1,6 @@
-http://dev.mysql.com/downloads/
-http://dev.mysql.com/downloads/connector/j/
+
+* http://dev.mysql.com/downloads/
+* http://dev.mysql.com/downloads/connector/j/
 
 
  <dependency>
@@ -9,7 +10,7 @@ http://dev.mysql.com/downloads/connector/j/
  </dependency>
 
 ----------------
-	Steps
+#	Steps
 ----------------
 * STEP 1: Register JDBC driver
 	- try {
