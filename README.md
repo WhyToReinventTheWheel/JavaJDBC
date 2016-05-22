@@ -27,9 +27,9 @@
 	- Sybase		com.sybase.jdbc.SybDriver			dbc:sybase:Tds:hostname: port Number/databaseName
 
 	- Approach I
-	- 	Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","userName","passwd"););
+		- Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo","userName","passwd"););
 	- Approach II
-	- 	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:username/password@amrood:1521:EMP");
+		- Connection conn = DriverManager.getConnection("jdbc:oracle:thin:username/password@amrood:1521:EMP");
 * STEP 3: Create Statement
 	- Statement stmt = conn.createStatement();
 * STEP 4: Execute a query
