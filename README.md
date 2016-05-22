@@ -12,14 +12,14 @@
 ----------------
 ### Steps
 ----------------
-#### STEP 1: Register JDBC driver
+* STEP 1: Register JDBC driver
 	- try {
 	-	Class.forName("oracle.jdbc.driver.OracleDriver");
 	- }
 	- catch(ClassNotFoundException ex) {}
 	
 * Note : 	All next Steps will throw java.sql.SQLException:
-*#### STEP 2: Open a connection
+* STEP 2: Open a connection
 	* RDBMS		JDBC driver name			URL format
 	* MySQL		com.mysql.jdbc.Driver			jdbc:mysql://hostname/ databaseName
 	* ORACLE	oracle.jdbc.driver.OracleDriver		jdbc:oracle:thin:@hostname:port Number:databaseName
@@ -31,13 +31,13 @@
 	- Approach II
 		- Connection conn = DriverManager.getConnection("jdbc:oracle:thin:username/password@amrood:1521:EMP");
 
-*#### STEP 3: Create Statement
+* STEP 3: Create Statement
 	- Statement stmt = conn.createStatement();
 
-*#### STEP 4: Execute a query
+* STEP 4: Execute a query
 	- ResultSet rs = stmt.executeQuery(sql);
 
-*#### STEP 5: Extract data from result set	
+* STEP 5: Extract data from result set	
 	- while(rs.next()){
         - 	//Retrieve by column name
         - 	int id  = rs.getInt("id");
