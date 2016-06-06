@@ -21,6 +21,5 @@ public class DataFetchUsing_NamedParameterJdbcTemplate {
 		
 		Employees emp= (Employees) namedParameterJdbcTemplate.queryForObject(sql,namedParameters,new EmployeesMapper());
 		System.out.println("Customer Details:   Name:"+emp.getFirstName()+" "+ emp.getLastName());
-		
 	}
 }
